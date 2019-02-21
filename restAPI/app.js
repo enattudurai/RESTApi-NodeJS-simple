@@ -9,6 +9,7 @@ app.use(morgan('combined'))
 const router = require('./Routes/users.js')
 app.use(router)
 
+
 app.listen(3000, ()=>{
 
 console.log("App is running and litening on port 3000");
